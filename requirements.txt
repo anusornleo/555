@@ -58,4 +58,3 @@ urllib3==1.24.3
 virtualenv==16.5.0
 whitenoise==4.1.2
 wrapt==1.11.1
-whitenoise==4.1.2
