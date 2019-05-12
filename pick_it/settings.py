@@ -91,12 +91,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pickit',
-        'USER': 'benning',
+        # 'USER': 'benning',
+        # 'PASSWORD': 'root',
+        # 'HOST': '35.198.223.114',
+        'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': '35.198.223.114',
-        # 'USER': 'root',
-        # 'PASSWORD': '8450',
-        # 'HOST': '127.0.0.1',
+        'HOST': '34.92.19.241',
         'PORT': '3306'
     }
 }
