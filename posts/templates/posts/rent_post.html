@@ -76,51 +76,55 @@
                                     </div>
                                 {% endfor %}
                             {% endif %}
+
                             <form method="POST" enctype="multipart/form-data">
                                 {% csrf_token %}
-                                <input type="hidden" name="csrfmiddlewaretoken"
-                                       value="hcxZLZjaX4o0go0SsdDSGLT0T8aAtaHmdNyxdxVU8Jc3nUKeurKSbNMVlbrwvslJ">
-                                <fieldset class="form-group">
-
-
-                                    <div id="div_id_date_time_start" class="form-group"><label for="id_date_time_start"
-                                                                                               class="col-form-label  requiredField">
-                                        Date time start<span class="asteriskField">*</span> </label>
-                                        <div class="">
-                                            <date-picker name="date_time_start" id="id_date_time_start" name="date"
-                                                         :config="options"></date-picker>
-                                            {#                                            <input type="text" name="date_time_start"#}
-                                            {#                                                   class="datetimeinput form-control" required#}
-                                            {#                                                   id="id_date_time_start">#}
-                                            <small id="hint_id_date_time_start" class="form-text text-muted">
-                                                โปรดใส่วันที่ตามรูปแบบนี้ yyyy-mm-dd hh:mm:ss
-                                            </small>
-                                        </div>
-                                    </div>
-                                    <div id="div_id_date_time_end" class="form-group"><label for="id_date_time_end"
-                                                                                             class="col-form-label  requiredField">
-                                        Date time end<span class="asteriskField">*</span> </label>
-                                        <div class="">
-                                            <date-picker name="date_time_end" id="id_date_time_end" name="date"
-                                                         :config="options"></date-picker>
-                                            {#                                            <input type="text" name="date_time_end"#}
-                                            {#                                                   class="datetimeinput form-control" required#}
-                                            {#                                                   id="id_date_time_end">#}
-                                            <small id="hint_id_date_time_end" class="form-text text-muted">
-                                                โปรดใส่วันที่ตามรูปแบบนี้ yyyy-mm-dd hh:mm:ss
-                                            </small>
-                                        </div>
-                                    </div>
-                                    <div id="div_id_license_image" class="form-group"><label for="id_license_image"
-                                                                                             class="col-form-label  requiredField">
-                                        Image<span class="asteriskField">*</span> </label>
-                                        <div class=""><input type="file" name="license_image" accept="image/*"
-                                                             class="clearablefileinput" required id="id_license_image">
-                                            <small id="hint_id_license_image" class="form-text text-muted">
-                                                ถ่ายรูปคู่บัตรใบขับขี่
-                                            </small>
-                                        </div>
-                                    </div>
+                                {{ renting_form|crispy }}
+                                {#                                <input type="hidden" name="csrfmiddlewaretoken"#}
+                                {#                                       value="hcxZLZjaX4o0go0SsdDSGLT0T8aAtaHmdNyxdxVU8Jc3nUKeurKSbNMVlbrwvslJ">#}
+                                {##}
+                                {##}
+                                {#                                <fieldset class="form-group">#}
+                                {##}
+                                {##}
+                                {#                                    <div id="div_id_date_time_start" class="form-group"><label for="id_date_time_start"#}
+                                {#                                                                                               class="col-form-label  requiredField">#}
+                                {#                                        Date time start<span class="asteriskField">*</span> </label>#}
+                                {#                                        <div class="">#}
+                                {#                                            <date-picker name="date_time_start" id="id_date_time_start" name="date"#}
+                                {#                                                         :config="options"></date-picker>#}
+                                {#                                            <input type="text" name="date_time_start"#}
+                                {#                                                   class="datetimeinput form-control" required#}
+                                {#                                                   id="id_date_time_start">#}
+                                {#                                            <small id="hint_id_date_time_start" class="form-text text-muted">#}
+                                {#                                                โปรดใส่วันที่ตามรูปแบบนี้ yyyy-mm-dd hh:mm:ss#}
+                                {#                                            </small>#}
+                                {#                                        </div>#}
+                                {#                                    </div>#}
+                                {#                                    <div id="div_id_date_time_end" class="form-group"><label for="id_date_time_end"#}
+                                {#                                                                                             class="col-form-label  requiredField">#}
+                                {#                                        Date time end<span class="asteriskField">*</span> </label>#}
+                                {#                                        <div class="">#}
+                                {#                                            <date-picker name="date_time_end" id="id_date_time_end" name="date"#}
+                                {#                                                         :config="options"></date-picker>#}
+                                {#                                            <input type="text" name="date_time_end"#}
+                                {#                                                   class="datetimeinput form-control" required#}
+                                {#                                                   id="id_date_time_end">#}
+                                {#                                            <small id="hint_id_date_time_end" class="form-text text-muted">#}
+                                {#                                                โปรดใส่วันที่ตามรูปแบบนี้ yyyy-mm-dd hh:mm:ss#}
+                                {#                                            </small>#}
+                                {#                                        </div>#}
+                                {#                                    </div>#}
+                                {#                                    <div id="div_id_license_image" class="form-group"><label for="id_license_image"#}
+                                {#                                                                                             class="col-form-label  requiredField">#}
+                                {#                                        Image<span class="asteriskField">*</span> </label>#}
+                                {#                                        <div class=""><input type="file" name="license_image" accept="image/*"#}
+                                {#                                                             class="clearablefileinput" required id="id_license_image">#}
+                                {#                                            <small id="hint_id_license_image" class="form-text text-muted">#}
+                                {#                                                ถ่ายรูปคู่บัตรใบขับขี่#}
+                                {#                                            </small>#}
+                                {#                                        </div>#}
+                                {#                                    </div>#}
 
                                 </fieldset>
                                 <div class="form-group">
