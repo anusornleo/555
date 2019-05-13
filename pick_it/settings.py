@@ -136,8 +136,8 @@ USE_TZ = True
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'bmaisonti@gmail.com'
-EMAIL_HOST_PASSWORD = 'benning043609'
+EMAIL_HOST_USER = 'anusornleo@gmail.com'
+EMAIL_HOST_PASSWORD = 'leo8450conan'
 EMAIL_PORT = 587
 
 
