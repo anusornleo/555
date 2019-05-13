@@ -73,7 +73,7 @@ def rent_post(request, car_id):
             mail_subject = 'Someone want to rent your car!' + car.owner.username
             message = render_to_string('posts/mail_notify.html', {
                 'user': current_user,
-                'domain': current_site.domain,
+                'domain': 'pick-it.me',
                 'car': car,
                 'rent': rent.id
             })
@@ -229,7 +229,7 @@ def rent_accept(request, rent_id):
     mail_subject = 'Your request have been accept'
     message = render_to_string('posts/mail_accept.html', {
         'user': rented.user,
-        'domain': current_site.domain,
+        'domain': 'pick-it.me',
         'car': rented.car,
         'phone': rented.car.owner.profile.phone
     })
@@ -249,7 +249,7 @@ def rent_decline(request, rent_id):
     mail_subject = 'Your request have been decline'
     message = render_to_string('posts/mail_decline.html', {
         'user': rented.user,
-        'domain': current_site.domain,
+        'domain': 'pick-it.me',
         'car': rented.car,
         'phone': rented.car.owner.profile.phone
     })
