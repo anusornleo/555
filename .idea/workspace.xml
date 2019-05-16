@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="719f1415-7df0-44a8-81f7-4ec24c019867" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/license_pic/DSC_0504.JPG" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/posts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="221" column="32" lean-forward="true" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
+            <state relative-caret-position="265">
+              <caret line="230" column="28" lean-forward="true" selection-start-line="230" selection-start-column="28" selection-end-line="230" selection-end-column="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -237,6 +237,12 @@
             <path>
               <item name="555" type="b2602c69:ProjectViewProjectNode" />
               <item name="555" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="license_pic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="555" type="b2602c69:ProjectViewProjectNode" />
+              <item name="555" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,7 +374,7 @@
       <workItem from="1557420900221" duration="20664000" />
       <workItem from="1557602370426" duration="630000" />
       <workItem from="1557655039018" duration="3090000" />
-      <workItem from="1557990991976" duration="4158000" />
+      <workItem from="1557990991976" duration="4412000" />
     </task>
     <task id="LOCAL-00001" summary="add ui">
       <created>1557378490845</created>
@@ -465,15 +471,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330644000" />
+    <option name="totallyTimeSpent" value="330898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.5016611" side_tool="true" weight="0.21218716" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49833888" visible="true" weight="0.17397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49833888" visible="true" weight="0.17397882" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2600297" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32892805" />
@@ -847,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="221" column="32" lean-forward="true" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
+        <state relative-caret-position="265">
+          <caret line="230" column="28" lean-forward="true" selection-start-line="230" selection-start-column="28" selection-end-line="230" selection-end-column="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
