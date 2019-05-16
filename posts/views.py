@@ -218,7 +218,7 @@ def rent_accept(request, rent_id):
     for rent in rents:
         if rent.user == rented.user and rent.car == rented.car:
             count += 1
-    if count < 1:
+    if count > 1:
         Contract.objects.create(
             user=rented.user,
             car=rented.car,
